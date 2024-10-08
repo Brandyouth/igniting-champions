@@ -43,3 +43,11 @@ debugger:
     close_connection: true
 gpm:
   verify_peer: true
+database:
+  enabled: true
+  type: mysql
+  host: localhost
+  port: 8080  #3306
+  username: astelcolls  # Replace with your username
+  password: astelg*+123  # Replace with your password
+  name: grav_db  # Replace with your database name
